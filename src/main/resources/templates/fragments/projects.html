@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-title-container">
+        <h2 class="section-title">My Work</h2>
+        <p class="section-subtitle">
+          A few selected projects and systems I've worked on recently
+        </p>
+      </div>
+      <div class="projects-container">
+
+        <!-- Project 1: Radiology Plus -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="/images/project1.png" alt="Radiology Plus">
+            <div class="project-overlay"></div>
+            <div class="project-tags">
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">AWS S3</span>
+              <span class="project-tag">WebSockets</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">JWT</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Radiology Plus – TeleRadiology Platform</h3>
+            <p class="project-description">
+              A secure platform enabling radiologists to view and annotate DICOM images. Integrated real-time chat using WebSockets and secure file handling with AWS S3.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/anuja-gode/RadiologyPlus-HAD" class="project-link" target="_blank">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Sign Language Detection -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="/images/project2.png" alt="Sign Language Detection System">
+            <div class="project-overlay"></div>
+            <div class="project-tags">
+              <span class="project-tag">MLOps</span>
+              <span class="project-tag">Docker</span>
+              <span class="project-tag">Jenkins</span>
+              <span class="project-tag">ELK Stack</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Sign Language Detection System</h3>
+            <p class="project-description">
+              Designed a real-time detection system for sign language using image uploads. Used Jenkins and Docker for CI/CD and centralized monitoring via ELK.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/anuja-gode/Sign-Language-Detection" class="project-link" target="_blank">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Course Management System -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="/images/project3.png" alt="Course Management System">
+            <div class="project-overlay"></div>
+            <div class="project-tags">
+              <span class="project-tag">C</span>
+              <span class="project-tag">Linux</span>
+              <span class="project-tag">Socket Programming</span>
+              <span class="project-tag">IPC</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Course Management System</h3>
+            <p class="project-description">
+              Built a terminal-based course management system using C. Implemented role-based access and client-server communication using TCP/IP sockets and IPC mechanisms.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/anuja-gode/Course-Management-System" class="project-link" target="_blank">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: API Spec Automation (Internship Project) -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="/images/project4.png" alt="API Spec Automation Tool">
+            <div class="project-overlay"></div>
+            <div class="project-tags">
+              <span class="project-tag">OpenAPI 3.0</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">CrewAI</span>
+              <span class="project-tag">Swagger</span>
+              <span class="project-tag">GPT-4 Turbo</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Automated API Spec Generator</h3>
+            <p class="project-description">
+              As part of my internship at eGov Foundation, I built a system that generates OpenAPI 3.0 specs from PRDs using CrewAI agents. Also created tools for automated test script generation and validation.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/anujagode/crewai_api_specs" class="project-link" target="_blank">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</th:block>
+</html>
